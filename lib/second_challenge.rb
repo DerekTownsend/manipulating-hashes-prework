@@ -10,7 +10,7 @@ def second_challenge
   full_list=[]
   groceries.values.each do |item|
     item.collect do |value|
-      value
+      full_list<<value
     end
   end
 
