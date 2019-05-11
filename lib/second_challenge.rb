@@ -9,9 +9,9 @@ def second_challenge
   #code your solution here!
   full_list=[]
   groceries.values.each do |item|
-    item.collect do |value|
-      full_list<<value
-    end
+    # item.collect do |value|
+    #   full_list<<value
+    # end
   end
 full_list
 groceries
