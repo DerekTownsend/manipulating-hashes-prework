@@ -8,8 +8,8 @@ def second_challenge
 
   #code your solution here!
   full_list=[]
-  groceries.values.collect do |item|
-    full_list<<item
+  groceries.values.each do |item|
+    item
   end
 
 
