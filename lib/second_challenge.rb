@@ -9,6 +9,7 @@ def second_challenge
   #code your solution here!
   full_list=[]
   groceries.values.each do |item|
+    item
     # item.collect do |value|
     #   full_list<<value
     # end
