@@ -10,6 +10,8 @@ def second_challenge
   full_list=[]
   groceries.values.each do |item|
     item.each do |value|
+
+    end
   end
 
 
