@@ -16,7 +16,7 @@ def first_challenge
   #your code here
   contacts.collect do |key,value|
     if key=="Freddy Mercury"
-
+      value[:favorite_icecream_flavors]
     end
   end
 
