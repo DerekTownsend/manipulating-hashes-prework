@@ -13,6 +13,6 @@ def second_challenge
       full_list<<value
     end
   end
-
+full_list
 
 end
