@@ -15,7 +15,9 @@ def first_challenge
 
   #your code here
   contacts.collect do |key,value|
+    if key=="Freddy Mercury"
 
+    end
   end
 
   #remember to return your newly altered contacts hash!
